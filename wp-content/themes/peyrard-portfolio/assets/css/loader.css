@@ -1,0 +1,37 @@
+/* ============================================================
+   LOADER — le logo s'imprime en 4 passages (C, M, J, N) puis se cale.
+   Affiché une seule fois par visite (voir assets/js/core/loader.js).
+   Les délais --d règlent l'ordre d'arrivée des encres.
+   ============================================================ */
+.loader{display:none}
+.js.loading .loader{display:grid; place-items:center; position:fixed; inset:0; z-index:100; background:var(--paper); transition:translate .75s cubic-bezier(.7,0,.2,1)}
+.js.loading body{overflow:hidden}
+.loader .plate{position:relative; width:min(46vw,220px); aspect-ratio:888/894}
+.loader .pl{position:absolute; inset:0; translate:var(--dx) var(--dy); animation:ld-register .55s cubic-bezier(.2,.8,.2,1) 1s forwards}
+.loader .pl i{position:absolute; inset:0; background:var(--col); opacity:0; scale:1.18;
+  -webkit-mask:var(--logo) center/contain no-repeat; mask:var(--logo) center/contain no-repeat;
+  animation:ld-stamp .42s cubic-bezier(.2,.9,.3,1) var(--d) forwards}
+.loader .c{--col:var(--c); --dx:-10px; --dy:-7px; --d:.1s; mix-blend-mode:var(--blend)}
+.loader .m{--col:var(--m); --dx:9px;  --dy:6px;  --d:.3s; mix-blend-mode:var(--blend)}
+.loader .y{--col:var(--y); --dx:4px;  --dy:-10px; --d:.5s; mix-blend-mode:var(--blend)}
+.loader .k{--col:var(--ink); --dx:0px; --dy:0px; --d:.75s}
+.loader .marks{position:absolute; inset:-22px; pointer-events:none}
+.loader .marks b{position:absolute; width:16px; height:16px; border:0 solid var(--ink)}
+.loader .marks b:nth-child(1){top:0; left:0; border-top-width:1px; border-left-width:1px}
+.loader .marks b:nth-child(2){top:0; right:0; border-top-width:1px; border-right-width:1px}
+.loader .marks b:nth-child(3){bottom:0; left:0; border-bottom-width:1px; border-left-width:1px}
+.loader .marks b:nth-child(4){bottom:0; right:0; border-bottom-width:1px; border-right-width:1px}
+.loader .inks{position:absolute; left:50%; bottom:calc(-22px - 2.2rem); translate:-50% 0; display:flex; gap:4px}
+.loader .inks i{width:14px; height:14px; outline:1px solid var(--line); outline-offset:-1px; background:var(--col); scale:1 0; transform-origin:bottom; animation:ld-ink .3s ease-out calc(var(--d) + .15s) forwards}
+.loader.waiting .pl:not(.k){animation:ld-wobble 1.4s ease-in-out infinite}
+.loader.waiting .m{animation-delay:-.45s} .loader.waiting .y{animation-delay:-.9s}
+.loader.done{translate:0 -100%}
+.loader.done .plate{transition:opacity .3s; opacity:0}
+@keyframes ld-stamp{60%{opacity:1} to{opacity:1; scale:1}}
+@keyframes ld-register{to{translate:0 0}}
+@keyframes ld-wobble{0%,100%{translate:0 0} 50%{translate:calc(var(--dx) * .45) calc(var(--dy) * .45)}}
+@keyframes ld-ink{to{scale:1 1}}
+@media (prefers-reduced-motion:reduce){
+  .loader .pl{translate:0 0} .loader .pl i, .loader .inks i{opacity:1; scale:1}
+  .loader.done{translate:0 0; opacity:0}
+}

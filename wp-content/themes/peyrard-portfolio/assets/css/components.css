@@ -1,0 +1,65 @@
+/* ============================================================
+   COMPOSANTS — réutilisés sur plusieurs pages
+   cartes projets, vignettes de secours, grille d'illustrations,
+   visionneuse
+   ============================================================ */
+
+/* ---------- Grille + cartes projets ---------- */
+.grid{display:grid; grid-template-columns:repeat(12,1fr); gap:clamp(1rem,2vw,1.75rem)}
+.card{grid-column:span 4; color:inherit; text-decoration:none; display:flex; flex-direction:column; gap:.85rem}
+.card.wide{grid-column:span 8}
+.card .cover{aspect-ratio:4/3; border-radius:4px; overflow:hidden; position:relative; background:var(--paper-2)}
+.card.wide .cover{aspect-ratio:8/3}
+.card .cover > *{transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.card:hover .cover > *, .card:focus-visible .cover > *{transform:scale(1.035)}
+.card .meta{display:flex; justify-content:space-between; gap:1rem; align-items:baseline}
+.card h3{margin:0; font-size:1.12rem; font-weight:650; line-height:1.25}
+.card .client{color:var(--muted); font-size:.9rem; margin-top:-.55rem}
+.shot{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:var(--pos,center); display:block}
+.empty{grid-column:1/-1; color:var(--muted)}
+
+/* ---------- Vignettes de secours (quand une image manque) ---------- */
+.cv{position:absolute; inset:0; display:grid; place-items:center; background:var(--bg)}
+.cv-print{background:radial-gradient(circle, var(--a) 34%, transparent 36%) 0 0/11px 11px, var(--bg)}
+.cv-print .sheet{width:46%; aspect-ratio:1/1.414; background:var(--sheet); box-shadow:10px 12px 0 rgba(0,0,0,.18); display:flex; flex-direction:column; justify-content:flex-end; padding:8%; gap:6%}
+.cv-print .sheet i{display:block; height:6%; background:var(--b)}
+.cv-print .sheet i:nth-child(1){height:38%; margin-bottom:auto}
+.cv-print .sheet i:nth-child(3){width:60%}
+.cv-print.fold .sheet{aspect-ratio:1.414/1; width:62%}
+.cv-graph .shape{width:44%; aspect-ratio:1; background:var(--a); border-radius:50% 50% 0 50%; position:relative}
+.cv-graph .shape::after{content:""; position:absolute; inset:28% -26% -26% 28%; background:var(--b); opacity:.92; border-radius:0 50% 50% 50%}
+.cv-graph.mark .shape{border-radius:0; transform:rotate(45deg); width:34%}
+.cv-graph.mark .shape::after{border-radius:50%; inset:30%}
+.cv-web .win{width:78%; height:70%; background:var(--sheet); border-radius:6px; overflow:hidden; box-shadow:0 18px 40px -18px rgba(0,0,0,.45); display:grid; grid-template-rows:14% 1fr}
+.cv-web .bar{background:var(--b); display:flex; align-items:center; gap:4px; padding:0 5%}
+.cv-web .bar i{width:6px;height:6px;border-radius:50%;background:var(--sheet);opacity:.7}
+.cv-web .body{display:grid; grid-template-columns:1.2fr 1fr; gap:6%; padding:7%}
+.cv-web .body b{background:var(--a); border-radius:3px}
+.cv-web .body span{display:flex; flex-direction:column; gap:12%}
+.cv-web .body span i{display:block; height:12%; background:var(--b); opacity:.28; border-radius:2px}
+.cv-web .body span i:first-child{height:22%; opacity:.9}
+.card.wide .cv-web .win{width:56%; height:78%}
+
+/* ---------- Tuile d'illustration ---------- */
+.illu{appearance:none; border:0; padding:0; margin:0 0 clamp(.75rem,1.5vw,1.25rem); width:100%; display:block; break-inside:avoid; cursor:zoom-in; position:relative; border-radius:4px; overflow:hidden;
+  background:radial-gradient(circle, color-mix(in srgb,var(--ink) 16%,transparent) 30%, transparent 32%) 0 0/9px 9px, var(--paper-2)}
+.illu img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.illu:hover img{transform:scale(1.03)}
+
+/* ---------- Visionneuse ---------- */
+.lb{position:fixed; inset:0; z-index:60; background:rgba(10,10,12,.93); display:none; align-items:center; justify-content:center; padding:calc(env(safe-area-inset-top,0px) + 4rem) 1rem calc(env(safe-area-inset-bottom,0px) + 4.5rem)}
+.lb.open{display:flex}
+.lb img{max-width:100%; max-height:100%; object-fit:contain; display:block}
+.lb .ctl{position:absolute; left:0; right:0; display:flex; justify-content:space-between; align-items:center; gap:1rem; padding:0 1rem; color:#fff; font-size:.9rem}
+.lb .ctl.top{top:calc(env(safe-area-inset-top,0px) + 1rem)}
+.lb .ctl.bot{bottom:calc(env(safe-area-inset-bottom,0px) + 1rem)}
+.lb button{appearance:none; border:1.5px solid #fff; background:transparent; color:#fff; font:inherit; font-weight:600; font-size:.9rem; padding:.45rem 1rem; border-radius:999px; cursor:pointer}
+.lb button:hover{background:#fff; color:#000}
+.lb .miss{color:#bbb; text-align:center; max-width:36ch}
+
+@media (max-width:960px){ .card{grid-column:span 6} .card.wide{grid-column:span 12} }
+@media (max-width:640px){
+  .card, .card.wide{grid-column:span 12}
+  .card.wide .cover{aspect-ratio:4/3}
+  .card.wide .cv-web .win{width:78%; height:70%}
+}

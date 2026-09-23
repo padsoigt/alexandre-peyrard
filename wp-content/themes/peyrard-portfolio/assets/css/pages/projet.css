@@ -1,0 +1,40 @@
+/* ============================================================
+   PAGE D'UN PROJET (projet.html?id=…)
+   fil d'Ariane · description + fiche · images · précédent/suivant
+   ============================================================ */
+.crumb{display:flex; gap:.5rem; align-items:center; font-size:.92rem; color:var(--muted); margin-bottom:1.5rem; flex-wrap:wrap}
+.crumb a{text-decoration:none} .crumb a:hover{color:var(--ink); text-decoration:underline}
+.pj-body{display:grid; grid-template-columns:minmax(0,7fr) minmax(0,4fr); gap:clamp(2rem,5vw,5rem); padding:clamp(2.5rem,5vw,4rem) 0}
+.pj-desc p{margin:0 0 1rem; font-size:1.12rem; max-width:62ch}
+.pj-desc p:first-child{font-size:clamp(1.2rem,2vw,1.4rem); line-height:1.45}
+.facts{margin:0; display:grid; gap:1.1rem; align-content:start}
+.facts dt{font-size:.8rem; color:var(--muted)}
+.facts dd{margin:.15rem 0 0; font-weight:600}
+.facts .tags{margin-top:.5rem; font-weight:400}
+.flinks{display:flex; flex-wrap:wrap; gap:.6rem; margin-top:.5rem}
+
+/* Images : une capture très haute défile dans son cadre (.tall) */
+.media{display:grid; gap:clamp(1rem,2vw,1.5rem); padding-bottom:clamp(3rem,6vw,5rem)}
+.media figure{margin:0}
+.media .frame{border-radius:6px; overflow:hidden; background:var(--paper-2); position:relative}
+.media .frame img{width:100%; height:auto; display:block}
+.media .frame.tall{max-height:85vh; overflow-y:auto; overscroll-behavior:contain}
+.media .frame.fallback{aspect-ratio:16/9}
+.media figcaption{margin-top:.5rem; color:var(--muted); font-size:.9rem}
+.scroll-hint{position:sticky; bottom:0; display:block; text-align:center; padding:.5rem; font-size:.8rem; color:#fff; background:linear-gradient(transparent, rgba(0,0,0,.55))}
+
+.pj-next{display:grid; grid-template-columns:1fr 1fr; border-top:1.5px solid var(--ink); margin-bottom:clamp(3rem,6vw,5rem)}
+.pj-next a{padding:1.5rem 0; text-decoration:none; display:flex; flex-direction:column; gap:.3rem}
+.pj-next a + a{text-align:right; border-left:1px solid var(--line); padding-left:1.5rem}
+.pj-next span{font-size:.85rem; color:var(--muted)}
+.pj-next strong{font-size:clamp(1.1rem,2.2vw,1.6rem); font-weight:750; font-variation-settings:"wdth" 110}
+.pj-next a:hover strong{text-decoration:underline; text-decoration-color:var(--m); text-decoration-thickness:3px; text-underline-offset:4px}
+
+@media (max-width:960px){ .pj-body{grid-template-columns:1fr} }
+@media (max-width:640px){ .pj-next{grid-template-columns:1fr} .pj-next a + a{text-align:left; border-left:0; padding-left:0; border-top:1px solid var(--line)} }
+
+/* Blocs de l'éditeur dans la description (titres, listes, citations…) */
+.pj-desc h2, .pj-desc h3{font-size:1.3rem; font-weight:700; margin:1.75rem 0 .6rem; font-variation-settings:"wdth" 110; letter-spacing:0}
+.pj-desc ul, .pj-desc ol{margin:0 0 1rem; padding-left:1.2rem; font-size:1.05rem}
+.pj-desc blockquote{margin:1.5rem 0; padding-left:1rem; border-left:3px solid var(--m); font-size:1.15rem}
+.pj-desc a{text-decoration-color:var(--m); text-decoration-thickness:2px; text-underline-offset:3px}

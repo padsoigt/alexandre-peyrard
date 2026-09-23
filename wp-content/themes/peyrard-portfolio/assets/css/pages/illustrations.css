@@ -1,0 +1,5 @@
+/* ============================================================
+   PAGE ILLUSTRATIONS (illustrations.html) — mosaïque
+   Nombre de colonnes : change "4" (max) et "220px" (largeur mini)
+   ============================================================ */
+.gallery{columns:4 220px; column-gap:clamp(.75rem,1.5vw,1.25rem)}

@@ -1,0 +1,719 @@
+{
+ "contact": {
+  "email": "alexandre.peyrard0@gmail.com",
+  "phone": "06 28 97 35 71",
+  "phoneLink": "+33628973571",
+  "linkedin": "https://www.linkedin.com/in/alexandre-peyrard-94b594190/",
+  "cv": "assets/docs/cv-alexandre-peyrard.pdf",
+  "city": "Lyon · Saint-Étienne"
+ },
+ "categories": {
+  "print": "Print",
+  "graphisme": "Graphisme",
+  "web": "Web"
+ },
+ "projects": [
+  {
+   "id": "clip",
+   "cat": "print",
+   "title": "Imprimerie fiduciaire CLIP",
+   "client": "CLIP SAS",
+   "year": "2020 – 2022",
+   "role": "Imprimeur sur rotative",
+   "featured": true,
+   "wide": true,
+   "desc": [
+    "J'ai travaillé comme imprimeur sur rotative au sein de l'imprimerie fiduciaire CLIP, spécialisée dans la production de documents sécurisés.",
+    "Mon rôle : préparer, régler et surveiller les machines d'impression en continu, en respectant des procédures strictes de contrôle qualité et de sécurité."
+   ],
+   "tags": [
+    "Presse rotative",
+    "Impression sécurisée",
+    "Contrôle qualité",
+    "Façonnage"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/aQKjmxS2y6XB9rNOYE3af8uvrw.jpg?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "la-scintillante",
+   "cat": "print",
+   "title": "La Scintillante",
+   "client": "Institut Léon Bérard",
+   "year": "",
+   "role": "Responsable impression",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Projet scolaire avec de vrais clients : la course solidaire de l'Institut de recherche Léon Bérard, au profit de la lutte contre le cancer.",
+    "J'étais responsable de l'impression : préparation des fichiers, choix des techniques et des finitions, gestion des entreprises partenaires. Sérigraphie sur t-shirts et tote bags, bâches pour la signalétique, flyers et affiches."
+   ],
+   "tags": [
+    "Sérigraphie",
+    "Bâche",
+    "Flyers",
+    "Affiches",
+    "Suivi fournisseurs"
+   ],
+   "links": [],
+   "images": []
+  },
+  {
+   "id": "steel",
+   "cat": "graphisme",
+   "title": "Steel — campagnes saisonnières",
+   "client": "Steel, Saint-Étienne",
+   "year": "",
+   "role": "Graphiste en équipe",
+   "featured": true,
+   "wide": false,
+   "desc": [
+    "Au sein d'une équipe de graphistes, j'ai participé à la création de la majorité des affiches, stickers et objets promotionnels de Steel, le centre commercial de Saint-Étienne.",
+    "Chaque opération commerciale avait ses visuels thématiques, déclinés en affiches 4x3, adhésifs grand format, panneaux et signalétique, dans le respect de l'identité et des contraintes de chaque support."
+   ],
+   "tags": [
+    "Affiche 4x3",
+    "Grand format",
+    "Signalétique",
+    "Objets promo"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/QcAqkjjK69X0gqe6MzWoZkYLmvw.webp?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "cache-cache-loire",
+   "cat": "graphisme",
+   "title": "Cache-cache dans la Loire",
+   "client": "Édition",
+   "year": "",
+   "role": "Co-illustrateur",
+   "featured": true,
+   "wide": true,
+   "desc": [
+    "J'ai co-réalisé l'intégralité des illustrations du livre avec un collègue illustrateur.",
+    "Inspiré d'Où est Charlie ?, l'ouvrage propose une version ligérienne : le lecteur cherche des personnages et des éléments cachés dans des scènes détaillées de la région."
+   ],
+   "tags": [
+    "Illustration",
+    "Édition jeunesse",
+    "Scènes détaillées"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/2FJifsv3uRtYRXwwnl05hnCHx4.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "saint-etienne-region",
+   "cat": "graphisme",
+   "title": "Saint-Étienne et sa région",
+   "client": "Édition",
+   "year": "",
+   "role": "Illustrateur de couverture",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Illustration de couverture de l'ouvrage : une image représentative du territoire, qui intègre ses éléments emblématiques dans une composition harmonieuse."
+   ],
+   "tags": [
+    "Couverture",
+    "Illustration",
+    "Édition"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/Zpj9wzOGVkIbqPwEZI9AVqY8XbQ.webp?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "cavarts",
+   "cat": "graphisme",
+   "title": "Festival Cav'Arts",
+   "client": "Festival Cav'Arts",
+   "year": "2025",
+   "role": "Création de l'affiche",
+   "featured": true,
+   "wide": false,
+   "desc": [
+    "Réalisation complète de l'affiche du Festival Cav'Arts, un festival pluri-artistique. Thème 2025 : « Science ou fiction ? »."
+   ],
+   "tags": [
+    "Affiche",
+    "Événementiel"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/NFOgtJmCwojvA95g0fFt1W4fg.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "poissonnerie-robert",
+   "cat": "graphisme",
+   "title": "Poissonnerie Robert",
+   "client": "Poissonnerie Robert",
+   "year": "",
+   "role": "Graphiste en équipe",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Au sein d'une équipe de graphistes, création d'affiches, stickers et objets promotionnels, au rythme des saisons, des fêtes et des événements annuels."
+   ],
+   "tags": [
+    "Affiches",
+    "Stickers",
+    "Objets promo"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/frCiTS87sImbIvefzdFVbVBtg0.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "gazette-halles",
+   "cat": "graphisme",
+   "title": "Gazette des Halles",
+   "client": "Halles Biltoki, Saint-Étienne",
+   "year": "",
+   "role": "Illustrateur",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Réalisation d'illustrations promotionnelles pour la Gazette des Halles Biltoki."
+   ],
+   "tags": [
+    "Illustration",
+    "Presse"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/Atc9eGfLy5y31PmnzjMgcKzHM.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "steel-signaletique",
+   "cat": "graphisme",
+   "title": "Illustrations pour signalétique",
+   "client": "Steel, Saint-Étienne",
+   "year": "",
+   "role": "Illustrateur",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Illustrations destinées aux supports de signalétique du centre commercial, selon les opérations commerciales."
+   ],
+   "tags": [
+    "Signalétique",
+    "Illustration"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/oJNfwxIM6VNJndq7bgGvJ49NDXA.jpg?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "roll-up",
+   "cat": "graphisme",
+   "title": "Roll-up",
+   "client": "",
+   "year": "",
+   "role": "Graphiste",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Création du visuel d'un roll-up."
+   ],
+   "tags": [
+    "Roll-up",
+    "Grand format"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/Az8X4UNQrD5XEQoYefsI7WwqdQI.jpg?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "flyer-echiquier",
+   "cat": "graphisme",
+   "title": "Flyer",
+   "client": "Échiquier sportif de Saint-Étienne",
+   "year": "",
+   "role": "Graphiste",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Création d'un flyer pour l'Échiquier sportif de Saint-Étienne."
+   ],
+   "tags": [
+    "Flyer"
+   ],
+   "links": [],
+   "images": []
+  },
+  {
+   "id": "la-ruche",
+   "cat": "web",
+   "title": "La Ruche La Salle",
+   "client": "La Salle Manigod",
+   "year": "",
+   "role": "Design & intégration",
+   "featured": true,
+   "wide": true,
+   "desc": [
+    "J'ai conçu et intégré le site de A à Z.",
+    "Maquettes sur Figma, échanges réguliers avec le client pour valider le design et affiner les contenus, puis intégration complète sous WordPress avec Elementor : responsive, cohérence graphique et fonctionnalités demandées."
+   ],
+   "tags": [
+    "Figma",
+    "WordPress",
+    "Elementor",
+    "Responsive"
+   ],
+   "links": [
+    {
+     "label": "Visiter le site",
+     "url": "https://www.laruche-lasalle.com/"
+    }
+   ],
+   "images": [
+    "https://framerusercontent.com/images/zOWxjFhUZNmWGDS7LMVg3ehyVug.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "boutique-lasalle",
+   "cat": "web",
+   "title": "Boutique La Salle Saint-Étienne",
+   "client": "La Salle Saint-Étienne",
+   "year": "",
+   "role": "Design & intégration e-commerce",
+   "featured": true,
+   "wide": false,
+   "desc": [
+    "Maquettes sur Figma validées avec le client pour l'interface et la structure du catalogue, puis intégration et configuration complètes sous PrestaShop : fonctionnalités e-commerce, responsive et cohérence avec l'identité visuelle."
+   ],
+   "tags": [
+    "Figma",
+    "PrestaShop",
+    "E-commerce"
+   ],
+   "links": [
+    {
+     "label": "Visiter le site",
+     "url": "https://boutique.lasalle42.fr/"
+    }
+   ],
+   "images": [
+    "https://framerusercontent.com/images/X4aUDpqAA2NWtwWayGxP02Vo0.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "tremplin-beal",
+   "cat": "web",
+   "title": "Tremplin 42 & Béal Peintures",
+   "client": "Tremplin 42, Béal Peintures",
+   "year": "",
+   "role": "Design & intégration",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Deux sites développés sous WordPress avec le thème Betheme.",
+    "Maquettes sur Figma, validation avec chaque client, puis intégration complète, paramétrage des fonctionnalités et responsive, dans le respect de l'identité de chaque entreprise."
+   ],
+   "tags": [
+    "Figma",
+    "WordPress",
+    "Betheme"
+   ],
+   "links": [
+    {
+     "label": "Tremplin 42",
+     "url": "https://tremplin42.fr/"
+    },
+    {
+     "label": "Béal Peintures",
+     "url": "https://beal-peintures.fr/"
+    }
+   ],
+   "images": [
+    "https://framerusercontent.com/images/TrTcsAex7dYworNhjtIDzyhCA.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "aptiris",
+   "cat": "web",
+   "title": "Blog Aptiris",
+   "client": "Aptiris",
+   "year": "",
+   "role": "Intégration",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Conception d'une page de blog et d'une page de référencement des articles, entièrement personnalisables selon les auteurs, avec des éléments interactifs pour les mettre en avant."
+   ],
+   "tags": [
+    "Blog",
+    "WordPress",
+    "Interactions"
+   ],
+   "links": [
+    {
+     "label": "Visiter le site",
+     "url": "https://aptiris.fr/blog/"
+    }
+   ],
+   "images": [
+    "https://framerusercontent.com/images/0EXa7B5pOpRBZAJwTmRpf8tTEA.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "recettes-loire",
+   "cat": "web",
+   "title": "Recettes de la Loire",
+   "client": "Papermint Création",
+   "year": "",
+   "role": "Intégration",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Pour l'ouvrage que nous avons réalisé, j'ai conçu la page « Recettes de la Loire » avec l'éditeur Gutenberg."
+   ],
+   "tags": [
+    "WordPress",
+    "Gutenberg"
+   ],
+   "links": [
+    {
+     "label": "Visiter le site",
+     "url": "https://www.papermint-creation.fr/recettes-de-la-loire/"
+    }
+   ],
+   "images": [
+    "https://framerusercontent.com/images/ykhT1kOgmo52710VoX3IGpVHDAA.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "detour-odyssey",
+   "cat": "web",
+   "title": "Détour Odyssey",
+   "client": "Détour Odyssey",
+   "year": "",
+   "role": "UI design",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Projet scolaire avec un vrai client : maquettage sur Figma de la future page web.",
+    "Analyse des besoins, structure et interface fidèle à l'image de la marque, en tenant compte de l'expérience utilisateur et des objectifs de communication."
+   ],
+   "tags": [
+    "Figma",
+    "UX/UI"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/uRo9QvPcUN9IHsN2AscvLwDhH8.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "r-eveil",
+   "cat": "web",
+   "title": "R-éveil",
+   "client": "R-éveil",
+   "year": "",
+   "role": "Maquette",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Maquette complète du site, confiée ensuite à un collègue pour l'intégration."
+   ],
+   "tags": [
+    "Figma",
+    "Maquette"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/I1akjFSn181jzT8JmPeWEAQ13Uw.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "avf",
+   "cat": "web",
+   "title": "AVF Union nationale",
+   "client": "AVF",
+   "year": "",
+   "role": "Maquette",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Maquettage sur Figma du site des AVF, développé ensuite par une entreprise partenaire."
+   ],
+   "tags": [
+    "Figma",
+    "Maquette"
+   ],
+   "links": [
+    {
+     "label": "Visiter le site",
+     "url": "https://avf-union-nationale.fr/"
+    }
+   ],
+   "images": [
+    "https://framerusercontent.com/images/DHl1uvePCXEN1SLBGIQWkCm4.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "art-martin",
+   "cat": "web",
+   "title": "Art Martin × Olivier Maisonneuve",
+   "client": "Olivier Maisonneuve",
+   "year": "",
+   "role": "Maquette",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Maquette du site Art Martin pour Olivier Maisonneuve."
+   ],
+   "tags": [
+    "Figma"
+   ],
+   "links": [
+    {
+     "label": "Visiter le site",
+     "url": "https://olivier-maisonneuve.com/art-martin/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "id": "dead-cells",
+   "cat": "web",
+   "title": "Page Dead Cells",
+   "client": "Projet scolaire",
+   "year": "",
+   "role": "Développement",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Page web dédiée au jeu Dead Cells : présenter son univers tout en travaillant la structure HTML/CSS, l'intégration graphique et le responsive."
+   ],
+   "tags": [
+    "HTML",
+    "CSS",
+    "Responsive"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/03hreaOU13LGtdoNbjjHv8Qa50.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "thebe",
+   "cat": "web",
+   "title": "Thèbe",
+   "client": "Projet scolaire",
+   "year": "",
+   "role": "Développement",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Petit jeu interactif inspiré du Tamagotchi : le joueur prend soin d'une créature virtuelle en surveillant ses besoins au fil du temps.",
+    "Entièrement réalisé en HTML, CSS et JavaScript, avec graphismes, sons et animations."
+   ],
+   "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Jeu"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/5naVODMiJsrsPjbPgf2PN1Szfg.png?scale-down-to=2000"
+   ]
+  },
+  {
+   "id": "vastega",
+   "cat": "web",
+   "title": "Vastéga",
+   "client": "Projet personnel",
+   "year": "",
+   "role": "Intégration",
+   "featured": false,
+   "wide": false,
+   "desc": [
+    "Site WordPress monté en local avec le logiciel Local, dans un but purement récréatif."
+   ],
+   "tags": [
+    "WordPress",
+    "Local"
+   ],
+   "links": [],
+   "images": [
+    "https://framerusercontent.com/images/aMq5b8YoXAcqVNFHJyryp7FHw.png?scale-down-to=2000"
+   ]
+  }
+ ],
+ "illustrations": [
+  "https://framerusercontent.com/images/cdhZBrs4xeEeM0l4Nld82e35whI.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/8OlRNRfbjPGgmEBE9pRPJr62FM.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/9Sw8bDI0nnMU1GlsnJ5yXDUdA.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/Mj6QQhSpbW76eWbr5SbRfGyfssk.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/cd0XetINiBcKrkPduW4fqN3G8ZM.png?scale-down-to=2000",
+  "https://framerusercontent.com/images/veR6SuBUUQReiUYRPamRvychGpw.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/aGqDnFD9KMtRniSRlAgk4BFUU.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/I9RsBkPIf34JtJZNpvsnGqT508.png?scale-down-to=2000",
+  "https://framerusercontent.com/images/OzqR2CdVx7bQ7WjmtuH492Q7M.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/LtTc1a6Hpdzng1I8lqQi3lFMVk.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/gfXmUN0PP3VFhvHkUnhDqS6NkAs.png?scale-down-to=2000",
+  "https://framerusercontent.com/images/nIiTSvWqsBRtOFzVEAI4wSnNN0.png?scale-down-to=2000",
+  "https://framerusercontent.com/images/upnky8z10ZeM9fasCQlhk4CB90o.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/DFtgtTJIPDjD7TcyRDKN1NIyJaw.png?scale-down-to=2000",
+  "https://framerusercontent.com/images/pOuQxDmnMsTocrW82lh8Cwc5o.png?scale-down-to=2000",
+  "https://framerusercontent.com/images/FIfiN2qPaH5qRIai7UiNVVrjJlE.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/WICS7vEOU8LyDet3mgZbT99mE8.png?scale-down-to=2000",
+  "https://framerusercontent.com/images/1LSaCAgvGuKAWSDhqnjp485PPTw.png?scale-down-to=2000",
+  "https://framerusercontent.com/images/JyTicq0xb6VKyZvt2WPYbShaI.jpg?scale-down-to=2000",
+  "https://framerusercontent.com/images/vV6OXXE65iYFHcVFV25cDkLMW8.jpg?scale-down-to=2000"
+ ],
+ "experiences": [
+  {
+   "when": "Aujourd'hui",
+   "title": "Cofondateur — ARGO Studio",
+   "where": "Agence créative, Lyon · Saint-Étienne",
+   "ink": "k",
+   "points": [
+    "Développement web, SEO et maintenance",
+    "Support graphique"
+   ]
+  },
+  {
+   "when": "2023 – 2026",
+   "title": "Infographiste & intégrateur web",
+   "where": "Papermint Création",
+   "ink": "y",
+   "points": [
+    "Création graphique et illustration pour le print",
+    "Intégration de sites sous WordPress"
+   ]
+  },
+  {
+   "when": "2022",
+   "title": "Responsable graphique",
+   "where": "Centre Léon Bérard, Lyon",
+   "ink": "m",
+   "points": [
+    "Élaboration d'une nouvelle charte graphique",
+    "Production d'objets promotionnels"
+   ]
+  },
+  {
+   "when": "2020 – 2022",
+   "title": "Alternant polyvalent en imprimerie",
+   "where": "CLIP SAS, Champagne-au-Mont-d'Or",
+   "ink": "c",
+   "points": [
+    "Conduite de presse rotative",
+    "Impression fiduciaire sécurisée",
+    "Façonnage"
+   ]
+  }
+ ],
+ "formations": [
+  {
+   "when": "2022 – 2025",
+   "title": "Mastère Lead UX",
+   "where": "Digital Campus, Lyon",
+   "ink": "y"
+  },
+  {
+   "when": "2020 – 2022",
+   "title": "BTS ERPC",
+   "where": "SEPR, Lyon",
+   "ink": "c"
+  },
+  {
+   "when": "2019 – 2020",
+   "title": "DU Thanatopraxie",
+   "where": "Université Claude Bernard, Lyon",
+   "ink": "k"
+  },
+  {
+   "when": "2014 – 2018",
+   "title": "Bac pro RPIP",
+   "where": "SEPR, Lyon",
+   "ink": "c"
+  }
+ ],
+ "skills": [
+  {
+   "title": "Print",
+   "ink": "c",
+   "text": "Du fichier à la sortie machine : des documents qui s'impriment du premier coup.",
+   "items": [
+    "Impression sur rotative",
+    "Impression sécurisée",
+    "Façonnage",
+    "Massicot",
+    "Sérigraphie",
+    "PAO"
+   ]
+  },
+  {
+   "title": "Graphisme & illustration",
+   "ink": "m",
+   "text": "Affiches, chartes, signalétique et illustrations, déclinées sur tous les formats.",
+   "items": [
+    "Illustrator",
+    "Photoshop",
+    "InDesign",
+    "Figma",
+    "Chartes graphiques",
+    "Grand format"
+   ]
+  },
+  {
+   "title": "Web",
+   "ink": "y",
+   "text": "De la maquette Figma à l'intégration CMS ou au code sur mesure.",
+   "items": [
+    "HTML / CSS / JavaScript",
+    "WordPress",
+    "Elementor",
+    "WooCommerce",
+    "PrestaShop",
+    "VS Code"
+   ]
+  }
+ ],
+ "extras": [
+  {
+   "title": "Langues",
+   "items": [
+    "Français",
+    "Anglais",
+    "Portugais",
+    "Langue des signes"
+   ]
+  },
+  {
+   "title": "Permis",
+   "items": [
+    "Permis B",
+    "CACES"
+   ]
+  },
+  {
+   "title": "À côté",
+   "items": [
+    "Bande dessinée",
+    "Escalade",
+    "Cinéma",
+    "Jeu vidéo",
+    "Sports outdoor",
+    "Littérature",
+    "Échecs"
+   ]
+  }
+ ]
+}

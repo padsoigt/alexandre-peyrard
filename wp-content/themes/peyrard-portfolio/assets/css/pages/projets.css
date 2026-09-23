@@ -1,0 +1,9 @@
+/* ============================================================
+   PAGE PROJETS (archive-projet.php + taxonomy-categorie_projet.php)
+   Les filtres sont de vrais liens : /projets/categorie/web/
+   Les cartes sont dans components.css
+   ============================================================ */
+.filters{display:flex; gap:.5rem; flex-wrap:wrap; margin-bottom:2rem}
+.filter{font-size:.92rem; font-weight:600; display:inline-flex; align-items:center; gap:.55rem; padding:.55rem 1rem .55rem .7rem; border:1.5px solid var(--line); color:var(--ink); border-radius:999px; text-decoration:none; transition:border-color .2s, background .2s}
+.filter:hover{border-color:var(--ink)}
+.filter[aria-current="page"]{border-color:var(--ink); background:var(--paper-2)}

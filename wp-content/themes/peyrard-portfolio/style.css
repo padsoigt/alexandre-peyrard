@@ -1,0 +1,15 @@
+/*
+Theme Name:   Peyrard Portfolio
+Theme URI:    https://github.com/padsoigt
+Author:       Alexandre Peyrard
+Description:  Portfolio imprimeur, graphiste & web. Loader et header à effet de décalage CMJN, projets, illustrations et parcours éditables avec ACF.
+Version:      1.1.0
+Requires at least: 6.3
+Requires PHP: 7.4
+Text Domain:  peyrard
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Ce fichier ne sert qu'à déclarer le thème à WordPress.
+   Les styles sont dans assets/css/ (chargés par inc/setup.php). */
