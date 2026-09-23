@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="[https://padsoigt.github.io/alexandre-peyrard/](https://padsoigt.github.io/alexandre-peyrard/)/main-sitemap.xsl"?>
 <sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
-<loc>/post-sitemap1.xml</loc>
+<loc>[https://padsoigt.github.io/alexandre-peyrard/](https://padsoigt.github.io/alexandre-peyrard/)/post-sitemap1.xml</loc>
 <lastmod>2026-07-07T14:19:00+02:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>/page-sitemap1.xml</loc>
+<loc>[https://padsoigt.github.io/alexandre-peyrard/](https://padsoigt.github.io/alexandre-peyrard/)/page-sitemap1.xml</loc>
 <lastmod>2026-09-23T10:58:18+02:00</lastmod>
 </sitemap>
 <sitemap>
-<loc>/category-sitemap1.xml</loc>
+<loc>[https://padsoigt.github.io/alexandre-peyrard/](https://padsoigt.github.io/alexandre-peyrard/)/category-sitemap1.xml</loc>
 </sitemap>
 </sitemapindex>

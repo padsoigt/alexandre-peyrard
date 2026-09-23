@@ -7,7 +7,7 @@
    POUR CHANGER DE LOGO :
    Option simple (site en ligne ou serveur local type Live Server) :
      remplace toute la ligne --logo par :
-     --logo: url("/wp-content/themes/peyrard-portfolio/assets/img/logo/logo.png");
+     --logo: url("[https://padsoigt.github.io/alexandre-peyrard/](https://padsoigt.github.io/alexandre-peyrard/)/wp-content/themes/peyrard-portfolio/assets/img/logo/logo.png");
    L'image doit être BLANCHE (ou noire) sur fond TRANSPARENT :
    seule sa forme compte, la couleur vient des encres CMJN.
    ============================================================ */
